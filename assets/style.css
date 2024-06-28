@@ -257,7 +257,7 @@ input {
   padding: 1.5rem;
 }
 
-.announcement-container > div:nth-child(even){
+.announcement-container > div:nth-child(even) {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   margin-top: 0.25rem;
@@ -292,4 +292,30 @@ input {
 .trend-pfp > div > div {
   font-size: 0.8rem;
   color: grey;
+}
+
+.proj-card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.menu li:hover,
+.settings li:hover {
+  cursor: pointer;
+  background-color: #0c8bdc;
+  border-radius: 10px;
+}
+
+.header-2-flex li:hover {
+  cursor: pointer;
+  border: 1px solid orange;
+  background-color: orange;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.trend-pfp:hover {
+  cursor: pointer;
+  background-color: var(--background-color);
+  border-radius: 25px;
 }
